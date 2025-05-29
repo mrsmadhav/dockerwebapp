@@ -9,7 +9,7 @@ services:
 
  application:
    image: mrsmadhav/apps:app
-   container_name: app
+   container_name: apps
    ports:
      - "1234:8080"
    depends_on:
